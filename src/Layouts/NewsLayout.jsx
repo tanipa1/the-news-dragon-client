@@ -1,4 +1,9 @@
 import React from 'react';
+import News from '../pages/News/News/News';
+import Header from '../pages/Shared/Header/Header';
+import Footer from '../pages/Shared/Footer/Footer';
+import { Col, Container, Row } from 'react-bootstrap';
+import RightNav from '../pages/Shared/RightNav/RightNav';
 
 const NewsLayout = () => {
     return (
@@ -7,7 +12,7 @@ const NewsLayout = () => {
             <Container>
                 <Row>
                     <Col className='mt-5' lg={9}>
-                        <Outlet></Outlet>
+                        <News></News>
                     </Col>
                     <Col lg={3}>
                         <RightNav></RightNav>
