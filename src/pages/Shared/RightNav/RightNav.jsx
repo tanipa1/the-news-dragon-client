@@ -12,14 +12,14 @@ import bg from '../../../assets/bg1.png';
 
 const RightNav = () => {
     return (
-        <div>
+        <div className='mt-5'>
             <div>
-                <h4 className='text-secondary'>Login With</h4>
+                <h4 className='text-secondary-emphasis'>Login With</h4>
                 <Button className='' variant="outline-primary"> <FaGoogle /> Login With Google</Button>{' '}
                 <Button className='mt-2 px-3' variant="outline-secondary"> <FaGithub /> Login With  Github  </Button>{' '}
             </div>
             <div className='mt-4'>
-                <h4 className='text-secondary'>Find Us On</h4>
+                <h4 className='text-secondary-emphasis'>Find Us On</h4>
                 <ListGroup>
                     <ListGroup.Item> <FaFacebook /> Facebook</ListGroup.Item>
                     <ListGroup.Item> <FaInstagram/> Instagram</ListGroup.Item>

@@ -15,7 +15,7 @@ const Main = () => {
                         <LeftNav></LeftNav>
                     </Col>
                     <Col lg={6}>
-                        <h2>Main content coming</h2>
+                        <h2 className='mt-5 text-secondary-emphasis'>Main content coming</h2>
                     </Col>
                     <Col lg={3}>
                         <RightNav></RightNav>
