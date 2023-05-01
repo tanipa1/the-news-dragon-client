@@ -22,9 +22,9 @@ const NavigationBar = () => {
                                 user && <FaUserCircle style={{ fontSize: '2rem' }} />
                             }
 
-                            {!user ?
-                                <Button variant="secondary">Login</Button> :
-                                <Link to="/login"><Button variant="secondary">Logout</Button></Link>
+                            {user ?
+                                <Button variant="secondary">Logout</Button> :
+                                <Link to="/login"><Button variant="secondary">Login</Button></Link>
                             }
                         </Nav>
                     </Navbar.Collapse>
